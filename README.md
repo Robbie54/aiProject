@@ -1,7 +1,6 @@
-#
 
 ###Currently using this dataset 
-https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/
+[Office-Home Dataset](https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/)
 
 ##Installing
 
