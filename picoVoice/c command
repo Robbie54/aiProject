@@ -19,4 +19,8 @@ python3 rhino_and_porcupine.py --rhino_context_path '/home/robbie/Desktop/Electr
 python3 rhino_and_porcupine.py --rhino_context_path '/home/robbie/Desktop/aiRobotics/project/aiProject/picoVoice/rhino-1.6/resources/contexts/linux/smart_lighting_linux.rhn' --porcupine_keyword_paths '/home/robbie/Desktop/aiRobotics/project/aiProject/picoVoice/porcupine-1.9/resources/keyword_files/linux/grasshopper_linux.ppn'
 
 
+pvporcupine                          1.9.0
+
+pvrecorder                           1.0.2
+pvrhino                              1.6.0
 
