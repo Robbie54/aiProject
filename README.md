@@ -3,7 +3,7 @@
 [Office-Home Dataset](https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/)
  
 [Deeplake Documentation](https://docs.activeloop.ai/examples/dl)
-- currently the code is based on "training and image classification model" section in this 
+
 ## Installing
 
 These are for the dataset
@@ -63,9 +63,10 @@ This was a pain to get working because ubuntu 20 uses an older version of glibc.
 So had to use an older version of picoVoice. 
 Essentially i have combined the wake word (porcupine) and speech to intent (rhino) from pico voice
 
-####Installing 
+#### Installing
 there is requirements.txt install those versions 
-####Running 
+#### Running 
+
 ```
 python3 rhino_and_porcupine.py --rhino_context_path 'YOURPATH' --porcupine_keyword_paths 'YOURPATH grasshopper_linux.ppn'
 ```
