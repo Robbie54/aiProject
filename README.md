@@ -24,9 +24,12 @@ pip install torchvision
 Tried running with fashion minst seemed to train ran an epoch in ~8mins 
 Need to work out how to visualise/get a better output 
 
-For picoVoice need to create the speechToIntent commands
+For picoVoice Rhino need to create the speechToIntent commands currently just running taking photo if any intent is fulfilled 
 
-Also need to get camera working to take a photo
+
+
+Minor thing but running juptyer notebook from the python file would be nice probaly just convert to python file after training model 
+
 
 
 ## Notes 
