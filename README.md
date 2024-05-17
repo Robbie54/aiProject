@@ -24,7 +24,10 @@ pip install torchvision
 Tried running with fashion minst seemed to train ran an epoch in ~8mins 
 Need to work out how to visualise/get a better output 
 
-Need to research what domain catagories/objects are in office-home dataset to use as labels 
+For picoVoice need to create the speechToIntent commands
+
+Also need to get camera working to take a photo
+
 
 ## Notes 
 
@@ -51,3 +54,17 @@ Dataset(path='hub://activeloop/office-home-domain-adaptation', read_only=True, t
 #### Visualisation 
 I thought this was a cool way to visualise the data 
 [Deep lake visualisation](https://docs.activeloop.ai/technical-details/visualization)
+
+# PicoVoice 
+This was a pain to get working because ubuntu 20 uses an older version of glibc. 
+So had to use an older version of picoVoice. 
+Essentially i have combined the wake word (porcupine) and speech to intent (rhino) from pico voice
+
+####Installing 
+there is requirements.txt install those versions 
+####Running 
+```
+python3 rhino_and_porcupine.py --rhino_context_path 'YOURPATH' --porcupine_keyword_paths 'YOURPATH grasshopper_linux.ppn'
+```
+Make sure to run from python demo folder
+
