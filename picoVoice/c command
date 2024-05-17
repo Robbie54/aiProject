@@ -1,0 +1,22 @@
+#check paths i have moved rhino into project 
+
+#for running porcupin demo 
+
+python3 porcupine_demo_mic.py --keywords jarvis 
+
+python3 porcupine_demo_mic.py --keyword_paths '/home/robbie/Desktop/Electron/PicoVoice/older/porcupine-1.9/resources/keyword_files/linux/grasshopper_linux.ppn' --library_path '/home/robbie/Desktop/Electron/PicoVoice/older/porcupine-1.9/lib/linux/x86_64/libpv_porcupine.so'
+
+#for running rhino #using lib path for your custom one #in electron folder
+
+python3 rhino_demo_mic.py --context_path '/home/robbie/Desktop/Electron/PicoVoice/older/rhino-1.6/resources/contexts/linux/smart_lighting_linux.rhn' --library_path '/home/robbie/Desktop/Electron/PicoVoice/older/rhino-1.6/lib/linux/x86_64/libpv_rhino.so'
+
+
+python3 rhino_and_porcupine.py --rhino_context_path '/home/robbie/Desktop/Electron/PicoVoice/older/rhino-1.6/resources/contexts/linux/smart_lighting_linux.rhn' --porcupine_keyword_paths '/home/robbie/Desktop/Electron/PicoVoice/older/porcupine-1.9/resources/keyword_files/linux/grasshopper_linux.ppn'
+
+
+//paths for ai 
+
+python3 rhino_and_porcupine.py --rhino_context_path '/home/robbie/Desktop/aiRobotics/project/aiProject/picoVoice/rhino-1.6/resources/contexts/linux/smart_lighting_linux.rhn' --porcupine_keyword_paths '/home/robbie/Desktop/aiRobotics/project/aiProject/picoVoice/porcupine-1.9/resources/keyword_files/linux/grasshopper_linux.ppn'
+
+
+
