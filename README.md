@@ -3,7 +3,7 @@
 [Office-Home Dataset](https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/)
  
 [Deeplake Documentation](https://docs.activeloop.ai/examples/dl)
-
+- currently the code is based on "training and image classification model" section in this 
 ## Installing
 
 These are for the dataset
