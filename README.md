@@ -1,8 +1,22 @@
+The read me is a mess at thsi point just ignore 
+
+
 
 ### Currently using this dataset 
 [Office-Home Dataset](https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/)
  
 [Deeplake Documentation](https://docs.activeloop.ai/examples/dl)
+
+Pretrained model reference 
+https://au.mathworks.com/help/deeplearning/ug/pretrained-convolutional-neural-networks.html 
+(we have resnet 18 atm)
+
+
+The rogue text generator attempt see w10 tut for more info
+
+https://pytorch.org/tutorials/intermediate/char_rnn_generation_tutorial.html
+
+
 
 ## Installing
 
@@ -21,11 +35,9 @@ pip install torchvision
 
 
 # Todo
-Tried running with fashion minst seemed to train ran an epoch in ~8mins 
-Need to work out how to visualise/get a better output 
+
 
 For picoVoice Rhino need to create the speechToIntent commands currently just running taking photo if any intent is fulfilled 
-
 
 
 Minor thing but running juptyer notebook from the python file would be nice probaly just convert to python file after training model 
@@ -59,6 +71,8 @@ I thought this was a cool way to visualise the data
 [Deep lake visualisation](https://docs.activeloop.ai/technical-details/visualization)
 
 # PicoVoice 
+https://picovoice.ai/
+
 This was a pain to get working because ubuntu 20 uses an older version of glibc. 
 So had to use an older version of picoVoice. 
 Essentially i have combined the wake word (porcupine) and speech to intent (rhino) from pico voice
