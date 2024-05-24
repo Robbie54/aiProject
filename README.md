@@ -3,7 +3,7 @@
 [Office-Home Dataset](https://datasets.activeloop.ai/docs/ml/datasets/office-home-dataset/)
  
 [Deeplake Documentation](https://docs.activeloop.ai/examples/dl)
-- currently the code is based on "training and image classification model" section in this 
+
 ## Installing
 
 These are for the dataset
@@ -24,9 +24,12 @@ pip install torchvision
 Tried running with fashion minst seemed to train ran an epoch in ~8mins 
 Need to work out how to visualise/get a better output 
 
-For picoVoice need to create the speechToIntent commands
+For picoVoice Rhino need to create the speechToIntent commands currently just running taking photo if any intent is fulfilled 
 
-Also need to get camera working to take a photo
+
+
+Minor thing but running juptyer notebook from the python file would be nice probaly just convert to python file after training model 
+
 
 
 ## Notes 
@@ -60,9 +63,10 @@ This was a pain to get working because ubuntu 20 uses an older version of glibc.
 So had to use an older version of picoVoice. 
 Essentially i have combined the wake word (porcupine) and speech to intent (rhino) from pico voice
 
-####Installing 
+#### Installing
 there is requirements.txt install those versions 
-####Running 
+#### Running 
+
 ```
 python3 rhino_and_porcupine.py --rhino_context_path 'YOURPATH' --porcupine_keyword_paths 'YOURPATH grasshopper_linux.ppn'
 ```
