@@ -11,7 +11,8 @@ a model from scratch and transfer learning would yeild subpar or on par in more 
 
 In the training folder there is some old attempts at image classification and object detection I was able to subdivide the datasets and prepeare them for training. 
 Training however was not feasible with my cpu even on just a small set of catagories to overfit for a few specific objects. 
-Was still very interesting learning how deeplake prepeares datasets for training and how the models are trained especially using pretrained models.   
+Was still very interesting learning how deeplake prepeares datasets for training and how the models are trained especially using pretrained models. 
+Also for metrics to determine training results there is currently only loss however i would have implemented metrics similar to previous tutorials such as accuracy, precision, recall, f1 score and a confusion matrix for a good breakdown. 
 
 I also became interested in lstm for rnn and thought it could be interested to train a character generator for the determiners of the list of nouns that was produced from the object detection. (determining a, an , and or blank for plurals) 
 It became clear however that i was still better off just using a simple function since there wernt many cases and the main difference was having multiple of the same objects or single as most objects determiner was 'a'. 
