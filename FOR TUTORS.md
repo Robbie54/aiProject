@@ -6,10 +6,10 @@ This is just a quick brief on the project. There are a few sections to the proje
 - the esp32 and serial sending
 - The voice and photo taking 
 
-Firstly i would like to say this project differes considerably from the teaser video mainly because i realised that I wouldn't have the processing power to reasonably train 
-a model from scratch and transfer learning would yeild subpar or on par in more specific circumstances making it not an exciting project. 
+Firstly i would like to say this project differes considerably from the teaser video mainly because i found other types of machine learning to be more interesting and I didn't have the processing power to reasonably train 
+a model from scratch (kept crashing on my laptop 1 or 2 epochs in), and transfer learning would yeild subpar or on par in more specific circumstances making it not an exciting project. 
 
-In the training folder there is some old attempts at image classification and object detection I was able to subdivide the datasets and prepeare them for training. 
+In the training folder there is some old attempts at image classification and object detection I was able to subdivide the datasets and prepeare them for training with some success at training to. 
 Training however was not feasible with my cpu even on just a small set of catagories to overfit for a few specific objects. 
 Was still very interesting learning how deeplake prepeares datasets for training and how the models are trained especially using pretrained models. 
 Also for metrics to determine training results there is currently only loss however i would have implemented metrics similar to previous tutorials such as accuracy, precision, recall, f1 score and a confusion matrix for a good breakdown. 
